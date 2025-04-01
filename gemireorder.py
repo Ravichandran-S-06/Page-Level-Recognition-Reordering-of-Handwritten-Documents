@@ -8,6 +8,7 @@ from PIL import Image
 
 # Configure Gemini API
 genai.configure(api_key="")  # Replace with your actual API key
+#Used Gemini API for fast processing, both llama 3.2 vision model and gemini models work on Vision Transformers, so no major difference
 
 def perform_ocr(image_path):
     """Performs OCR and returns the transcribed text with enhanced accuracy."""
